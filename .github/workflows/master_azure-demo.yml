@@ -25,7 +25,6 @@ jobs:
       - name: Build with Gradle
         run: |
           chmod +x gradlew
-          chmod +x ./gradlew
           ./gradlew clean build
 
       - name: Upload artifact for deployment job
